@@ -1,0 +1,23 @@
+ POST http://localhost:3100/api/register
+content-type: application/json
+
+ {
+     "userName": "test2",
+     "name": "test2",
+     "email": "somethifasdfasfng@test.com",
+    "password": "tests"
+ }
+
+####
+ POST http://localhost:3100/api/register
+ content-type: application/json
+
+ {
+    "userName": "test",
+    "name": "test1",
+     "email": "stes@test.com",
+    "password": "tests"
+ }
+
+####
+ GET http://localhost:3100/api/users
